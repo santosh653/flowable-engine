@@ -37,7 +37,7 @@ fi
 
 git clone ${REPO}
 
-## Build and test royal-compiler
+## Build and test flowable-engine
 cd flowable-engine
 git checkout ${VERSION}
 ret=$?
