@@ -1,7 +1,7 @@
 # ----------------------------------------------------------------------------
 #
 # Package           : flowable-engine
-# Version           : 0.1.0
+# Version           : 6.5.0
 # Source repo       : https://github.com/flowable/flowable-engine
 # Tested on         : ubuntu_20.04
 # Script License    : Apache License, Version 2 or later
@@ -49,4 +49,4 @@ else
   exit
 fi
 
-mvn clean install
+sudo mvn clean:clean install -DskipTests=true -B -V
